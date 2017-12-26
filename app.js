@@ -4,32 +4,27 @@
 angular.module('ShoppingListCheckOff', [])
 .controller('ToBuyController', ToBuyController)
 .controller('AlreadyBoughtController', AlreadyBoughtController)
-.factory('ShoppingListCheckOffFactory', ShoppingListCheckOffFactory);
+// .factory('ShoppingListCheckOffFactory', ShoppingListCheckOffFactory);
+.provider('ShoppingListCheckOffService', ShoppingListCheckOffServiceProvider)
 
-
-ToBuyController.$inject = ['ShoppingListCheckOffFactory'];
-function ToBuyController(ShoppingListCheckOffFactory) {
+ToBuyController.$inject = ['ShoppingListCheckOffService'];
+function ToBuyController(ShoppingListCheckOffService) {
 
     var buyList = this;
 
-    var shoppingList = ShoppingListCheckOffFactory();
-
-    buyList.toBuyItems = shoppingList.getBuyItems();
+    buyList.toBuyItems = ShoppingListCheckOffService.getBuyItems();
 
     buyList.boughtItem = function (itemIndex, itemName, itemQuantity) {
-        shoppingList.boughtItem(itemIndex, itemName, itemQuantity);
+        ShoppingListCheckOffService.boughtItem(itemIndex, itemName, itemQuantity);
     }
 }
 
-AlreadyBoughtController.$inject = ['ShoppingListCheckOffFactory'];
-function AlreadyBoughtController(ShoppingListCheckOffFactory) {
+AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
+function AlreadyBoughtController(ShoppingListCheckOffService) {
 
     var boughtList = this;
 
-    var shoppingList = ShoppingListCheckOffFactory();
-
-    boughtList.toBoughtItems = shoppingList.getBoughtItems();
-
+    boughtList.toBoughtItems = ShoppingListCheckOffService.getBoughtItems();
 }
 
 function ShoppingListCheckOffService() {
@@ -61,7 +56,7 @@ function ShoppingListCheckOffService() {
 
   var toBoughtItems = [];
 
-  service.boughtItem = function (itemIndex, itemName, quantity) {
+    service.boughtItem = function (itemIndex, itemName, quantity) {
 
       toBuyItems.splice(itemIndex, 1);
 
@@ -71,8 +66,6 @@ function ShoppingListCheckOffService() {
       };
 
       toBoughtItems.push(item);
-
-      console.log('toBoughtItems',toBoughtItems);
   };
 
   service.getBuyItems = function () {
@@ -85,12 +78,15 @@ function ShoppingListCheckOffService() {
 
 }
 
-function ShoppingListCheckOffFactory() {
-    var factory = function () {
-        return new ShoppingListCheckOffService();
-    };
+function ShoppingListCheckOffServiceProvider() {
+    var provider = this;
 
-    return factory;
+    provider.$get = function () {
+
+        var shoppingList = new ShoppingListCheckOffService();
+
+        return shoppingList;
+    };
 }
 
 })();
