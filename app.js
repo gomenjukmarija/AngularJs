@@ -4,7 +4,6 @@
 angular.module('ShoppingListCheckOff', [])
 .controller('ToBuyController', ToBuyController)
 .controller('AlreadyBoughtController', AlreadyBoughtController)
-// .factory('ShoppingListCheckOffFactory', ShoppingListCheckOffFactory);
 .provider('ShoppingListCheckOffService', ShoppingListCheckOffServiceProvider)
 
 ToBuyController.$inject = ['ShoppingListCheckOffService'];
