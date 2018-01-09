@@ -32,7 +32,7 @@
         })
 
         // Items list page
-        .state('categoryList.itemList', {
+        .state('itemList', {
             url: '/items/{categoryShortName}',
             templateUrl: 'src/data/templates/items.template.html',
             controller: "ItemsListController as itemList",
