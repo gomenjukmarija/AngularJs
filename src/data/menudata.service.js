@@ -24,7 +24,6 @@ function MenuDataService($http, ApiBasePath) {
     };
 
     service.getItemsForCategory = function (categoryShortName) {
-
         var data = $http({
             method: "GET",
             url: (ApiBasePath + "/menu_items.json"),
@@ -37,7 +36,6 @@ function MenuDataService($http, ApiBasePath) {
 
         return data;
     };
-
     }
 
 })();

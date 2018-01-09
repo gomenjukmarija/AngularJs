@@ -31,12 +31,18 @@
             }
         })
 
-            // .state('mainList.itemDetail', {
-            //     url: '/item-detail/{itemId}',
-            //     templateUrl: 'src/shoppinglist/templates/item-detail.template.html',
-            //     controller: "ItemDetailController as itemDetail"
-            // });
-
+        // Items list page
+        .state('categoryList.itemList', {
+            url: '/items/{categoryShortName}',
+            templateUrl: 'src/data/templates/items.template.html',
+            controller: "ItemsListController as itemList",
+            resolve: {
+                items: ['$stateParams', 'MenuDataService',
+                    function ($stateParams, MenuDataService) {
+                    return MenuDataService.getItemsForCategory($stateParams.categoryShortName);
+                }]
+            }
+        });
     }
 
 })();
