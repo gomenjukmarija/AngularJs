@@ -1,7 +1,0 @@
-div {
-    margin-top: 50px;
-}
-
-li[ui-sref]:hover {
-    color: hotpink;
-}
