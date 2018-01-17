@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d626de-4242-41d5-86f0-7453df296c9d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/public/registration/registration.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/data/categories.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/categorieslist.controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/items.component.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/itemslist.controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/menudata.service.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/templates/categories.template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/templates/items.template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/menuapp/menuapp.module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/menuapp/templates/home.template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/public.routes.js" afterPath="$PROJECT_DIR$/src/public/public.routes.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +16,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1848">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="-989">
+              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/public.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="29" column="10" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/menu.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture42/src/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/public/registration/registration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture42/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -40,9 +81,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,11 +126,14 @@
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/data/templates/categories.template.html" />
         <option value="$PROJECT_DIR$/src/data/itemslist.controller.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/data/templates/items.template.html" />
         <option value="$PROJECT_DIR$/src/data/data.module.js" />
         <option value="$PROJECT_DIR$/src/menuapp/menuapp.module.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/public/public.routes.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../fullstack-course5/examples/Lecture42/index.html" />
+        <option value="$PROJECT_DIR$/src/public/registration/registration.html" />
       </list>
     </option>
   </component>
@@ -121,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -135,10 +178,44 @@
               <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="AngularJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AngularJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AngularJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AngularJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="menu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AngularJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="registration" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,18 +262,19 @@
       <workItem from="1515142009257" duration="13794000" />
       <workItem from="1515500843392" duration="8967000" />
       <workItem from="1515520385175" duration="1623000" />
-      <workItem from="1516045888588" duration="20000" />
+      <workItem from="1516045888588" duration="616000" />
+      <workItem from="1516213999659" duration="5573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64704000" />
+    <option name="totallyTimeSpent" value="70873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528824" sideWeight="0.49612403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31713146" sideWeight="0.49612403" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40860215" sideWeight="0.32559425" order="7" side_tool="true" content_ui="tabs" />
@@ -204,7 +282,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18960752" sideWeight="0.503876" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41317365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.045101088" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44946235" sideWeight="0.67440575" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -229,14 +307,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture02/index.html" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture27/app.js" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture28/index.html" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture28/app.js" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture29/index.html" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture29/app.js" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture26/app.js" />
-    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture30/index.html" />
     <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture30/shoppingList.html" />
     <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture30/app.js" />
     <entry file="file://$PROJECT_DIR$/foundItems.html" />
@@ -267,95 +337,86 @@
     <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture39/src/shoppinglist/shoppinglist.component.js" />
     <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture41/src/shoppinglist/shoppinglist.component.js" />
     <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture41/src/shoppinglist/item-detail.controller.js" />
-    <entry file="file://$PROJECT_DIR$/src/data/categorieslist.controller.js">
+    <entry file="file://$PROJECT_DIR$/src/data/categorieslist.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/menuapp/templates/home.template.html" />
+    <entry file="file://$PROJECT_DIR$/src/menuapp/menuapp.module.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/data.module.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/itemslist.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/menudata.service.js" />
+    <entry file="file://$PROJECT_DIR$/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/src/data/templates/categories.template.html" />
+    <entry file="file://$PROJECT_DIR$/src/data/categories.component.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/items.component.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/templates/items.template.html" />
+    <entry file="file://$PROJECT_DIR$/src/routes.js" />
+    <entry file="file://$PROJECT_DIR$/src/public/menu-item/menu-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/public.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture42/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="41" />
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuapp/templates/home.template.html">
+    <entry file="file://$PROJECT_DIR$/../fullstack-course5/examples/Lecture42/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuapp/menuapp.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/data.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/itemslist.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/menudata.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/templates/categories.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/categories.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/items.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/templates/items.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="325">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1848">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-989">
+          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/public.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/menu.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/registration/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding />
         </state>
       </provider>
