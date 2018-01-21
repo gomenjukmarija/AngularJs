@@ -14,9 +14,6 @@ function InfoService() {
     };
 
     service.getUserInfo = function () {
-
-        console.log('userInfo',userInfo);
-
         return userInfo;
     };
 }

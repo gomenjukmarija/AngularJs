@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/restaurant.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/admin.css">
   </head>
   <body ng-app="restaurant" ng-strict-di>
 
@@ -56,16 +57,17 @@
               </li>
               <li>
                 <a ui-sref="admin.registration">
-                  <span  class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">
-                  Sign Up
+                  <span  class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Sign Up
                 </a>
               </li>
+
               <li id="phone" class="hidden-xs">
                 <a href="tel:410-602-5008">
                   <span>410-602-5008</span></a><div>* We Deliver</div>
               </li>
             </ul><!-- #nav-list -->
           </div><!-- .collapse .navbar-collapse -->
+          <registered class="registered"></registered>
         </div><!-- .container -->
       </nav><!-- #header-nav -->
     </header>
@@ -138,10 +140,10 @@
     <!-- ADMIN SITE -->
     <script src="src/admin/admin.module.js"></script>
     <script src="src/admin/admin.routes.js"></script>
+    <script src="src/admin/registration/registration.component.js"></script>
     <script src="src/admin/registration/registration.controller.js"></script>
     <script src="src/admin/info/info.controller.js"></script>
     <script src="src/admin/info/info.service.js"></script>
-    <script src="src/admin/registration/registration.service.js"></script>
 
     <!--Application files -->
 

@@ -4,15 +4,15 @@
 angular.module('admin')
 .controller('RegistrationController', RegistrationController);
 
-RegistrationController.$inject = ['InfoService', 'MenuService'];
-function RegistrationController(InfoService, MenuService) {
+RegistrationController.$inject = ['InfoService', 'MenuService', '$rootScope'];
+function RegistrationController(InfoService, MenuService, $rootScope) {
 
     var regCtrl = this;
 
+    var user = {};
+
     regCtrl.submit = function () {
         regCtrl.completed = true;
-
-        var user = {};
 
         if (regCtrl.user && regCtrl.user.shortname) {
 
@@ -36,6 +36,8 @@ function RegistrationController(InfoService, MenuService) {
                 regCtrl.error = false;
 
                 InfoService.setUserInfo(user);
+
+                $rootScope.$broadcast('registered:processing', {registered: false});
             })
                 .catch(function () {
                     regCtrl.completed = false;
@@ -48,6 +50,7 @@ function RegistrationController(InfoService, MenuService) {
             regCtrl.error = true;
             InfoService.setUserInfo(user);
         }
+
     };
 }
 

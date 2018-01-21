@@ -28,7 +28,6 @@
                         return InfoService.getUserInfo();
                     }]
                 }
-
             });
     }
 

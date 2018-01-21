@@ -1,0 +1,11 @@
+.registered div {
+    color:red;
+    position: relative;
+    float: right;
+    bottom: 80px;
+    right: 150px;
+}
+
+.registered a {
+    color:red;
+}
