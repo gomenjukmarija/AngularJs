@@ -1,0 +1,17 @@
+<div id="main-content" class="container">
+    <h1>Registered information</h1>
+    First name: {{ infoCtrl.info.firstname }} <br>
+    Last name: {{ infoCtrl.info.lastname }} <br>
+    Email: {{ infoCtrl.info.email }} <br>
+    Phone: {{ infoCtrl.info.phone }} <br>
+    <h2>Favorite menu item</h2>
+    Short_name: {{ infoCtrl.info.short_name}} <br>
+    Name: {{ infoCtrl.info.name }} <br>
+    Description: {{ infoCtrl.info.description }} <br>
+   <img width="200" height="200"
+         ng-src="images/menu/{{infoCtrl.info.category_short_name}}/{{infoCtrl.info.category_short_name}}.jpg"
+    >
+</div>
+
+
+

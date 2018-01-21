@@ -1,5 +1,9 @@
 <div id="main-content" class="container">
 
+    <div id="info" ng-if="regCtrl.completed">
+        Your information has been saved.
+    </div>
+
     <form name='regForm' novalidate>
 
         <div class="form-group">
@@ -68,31 +72,17 @@
 
             <input type="text" name="shortname" placeholder="Enter short name" class="form-control"
                    ng-model="regCtrl.user.shortname">
+
+            <span ng-if="regCtrl.error">
+            No such menu number exists.
+          </span>
+
+
         </div>
 
         <button class="btn btn-primary"
                 ng-disabled="regForm.$invalid"
-                ng-click="regCtrl.submit()">Submit</button>
-
-        <div style="margin-top: 10px;">
-            Form valid? {{ regForm.$valid }}
-        </div>
+                ng-click="regCtrl.submit()">Submit
+        </button>
     </form>
-
-    <div id="info" ng-if="regCtrl.completed">
-        First name: {{ regCtrl.user.firstname}} <br>
-        Last name: {{ regCtrl.user.lastname}} <br>
-        Email: {{ regCtrl.user.email}} <br>
-        Phone: {{ regCtrl.user.phone }}<br>
-        Short name: {{ regCtrl.user.shortname }}
-    </div>
-
-
-    <!--https://gomenjukmarija2.herokuapp.com/
-    | https://git.heroku.com/gomenjukmarija2.git
-    https://gomenjukmarija2.herokuapp.com/menu_items/A1.json-->
-
-
-
-
 </div>

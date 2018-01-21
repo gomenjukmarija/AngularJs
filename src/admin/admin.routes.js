@@ -16,12 +16,19 @@
                 url: '/registration',
                 templateUrl: 'src/admin/registration/registration.html',
                 controller: 'RegistrationController',
-                controllerAs: 'regCtrl',
+                controllerAs: 'regCtrl'
+            })
+            .state('admin.info', {
+                url: '/registration/info',
+                templateUrl: 'src/admin/info/info.html',
+                controller: 'InfoController',
+                controllerAs: 'infoCtrl',
                 resolve: {
-                    menuItem: ['MenuService', function (MenuService) {
-                        return MenuService.getMenuItem('A1');
+                    info: ['InfoService', function (InfoService) {
+                        return InfoService.getUserInfo();
                     }]
                 }
+
             });
     }
 

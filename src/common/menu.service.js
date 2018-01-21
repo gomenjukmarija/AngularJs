@@ -28,11 +28,11 @@ function MenuService($http, ApiPath) {
   };
 
     service.getMenuItem = function (shortname) {
-        return $http.get(ApiPath + '/menu_items/' + shortname + '.json').then(function (response) {
-
-          console.log('response.data',response.data);
-          return response.data;
+        var response = $http({
+            method: "GET",
+            url: (ApiPath + '/menu_items/' + shortname + '.json')
         });
+        return response;
     };
 }
 
