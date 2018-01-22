@@ -9,6 +9,5 @@
     Name: {{ infoCtrl.info.name }} <br>
     Description: {{ infoCtrl.info.description }} <br>
    <img width="200" height="200"
-         ng-src="images/menu/{{infoCtrl.info.category_short_name}}/{{infoCtrl.info.category_short_name}}.jpg"
-    >
+        ng-src="{{infoCtrl.basePath}}/images/{{infoCtrl.info.short_name}}.jpg">
 </div>

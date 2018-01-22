@@ -1,9 +1,4 @@
 <div id="main-content" class="container">
-
-    <div id="info" ng-if="regCtrl.completed">
-        Your information has been saved.
-    </div>
-
     <form name='regForm' novalidate>
 
         <div class="form-group">
@@ -84,5 +79,9 @@
                 ng-disabled="regForm.$invalid"
                 ng-click="regCtrl.submit()">Submit
         </button>
-    </form>
+    </form><br>
+
+    <div id="info" ng-if="regCtrl.completed" class="alert alert-success">
+        Your information has been saved.
+    </div>
 </div>

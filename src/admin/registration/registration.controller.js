@@ -9,10 +9,13 @@ function RegistrationController(InfoService, MenuService, $rootScope) {
 
     var regCtrl = this;
 
-    var user = {};
-
     regCtrl.submit = function () {
-        regCtrl.completed = true;
+
+        regCtrl.error = true;
+        regCtrl.completed = false;
+        $rootScope.$broadcast('registered:processing', {registered: true});
+        var user = {};
+        InfoService.setUserInfo(user);
 
         if (regCtrl.user && regCtrl.user.shortname) {
 
@@ -38,19 +41,9 @@ function RegistrationController(InfoService, MenuService, $rootScope) {
                 InfoService.setUserInfo(user);
 
                 $rootScope.$broadcast('registered:processing', {registered: false});
-            })
-                .catch(function () {
-                    regCtrl.completed = false;
-                    regCtrl.error = true;
-                    InfoService.setUserInfo(user);
-                });
+            });
 
-        } else {
-            regCtrl.completed = false;
-            regCtrl.error = true;
-            InfoService.setUserInfo(user);
         }
-
     };
 }
 

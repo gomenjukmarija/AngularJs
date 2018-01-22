@@ -4,14 +4,10 @@
 angular.module('admin')
 .controller('InfoController', InfoController);
 
-InfoController.$inject = ['info', '$rootScope'];
-function InfoController(info, $rootScope) {
+InfoController.$inject = ['info', 'ApiPath'];
+function InfoController(info, ApiPath) {
     var infoCtrl = this;
     infoCtrl.info = info;
-
-    if (info && info.short_name) {
-        $rootScope.$broadcast('registered:processing', {registered: false});
-    }
+    infoCtrl.basePath = ApiPath;
 }
-
 })();
